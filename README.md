@@ -16,7 +16,7 @@ HackTN26 · Team **West End Demons** · Challenge #1: From Surplus to Social Goo
 ![Salvage manifest](docs/screenshot-manifest.png)
 </details>
 
-**Demo video (1:20):** [docs/demo.mp4](docs/demo.mp4), a captioned walkthrough recorded on the live site.
+**Demo video (1:19):** [docs/demo.mp4](docs/demo.mp4), a captioned walkthrough recorded on the live site.
 
 <!-- TODO: deck PDF link -->
 
@@ -108,7 +108,7 @@ pm2 save
 | `data/materials.json` | **Estimates.** Resale $/unit and weight from the team's starting table; to be checked against Habitat ReStore prices. CO₂ factors approximate EPA WARM source-reduction factors and must be verified before quoting. |
 | `data/nonprofits.json` | Habitat for Humanity of Greater Nashville ReStore is a **real** organization (accepted categories to be confirmed). The other three are **samples**, labeled "Sample" in the UI. |
 | Pickup window | A proposed slot (two business days out); real scheduling is out of scope. |
-| Demo photos | CC0 photos from Wikimedia Commons / Unsplash (`public/demo/CREDITS.md`). |
+| Demo photos | **Public domain.** One 1920s bungalow documented by the Historic American Buildings Survey (HABS FL-538, Orlando, FL), standing in for a Nashville teardown (`public/demo/CREDITS.md`). |
 | Photo estimates | A starting inventory for a human to confirm on site. Lead paint / asbestos flags are prompts to call a licensed professional, not an assessment. |
 
 ## API

@@ -24,7 +24,11 @@ export async function chat(system: string, userText: string, imagesB64: string[]
   const { client, compartmentId } = getClient();
   const content: any[] = [
     { type: "TEXT", text: userText },
-    ...imagesB64.map((b64) => ({ type: "IMAGE", imageUrl: { url: `data:image/jpeg;base64,${b64}` } })),
+    // Label each image so photoIndex in the manifest points at the right photo.
+    ...imagesB64.flatMap((b64, i) => [
+      { type: "TEXT", text: `Photo ${i}:` },
+      { type: "IMAGE", imageUrl: { url: `data:image/jpeg;base64,${b64}` } },
+    ]),
   ];
   const started = Date.now();
   const res = await client.chat({
@@ -61,7 +65,7 @@ List the salvageable items. Rules:
 - condition: excellent | good | fair | poor, judged only from what is visible.
 - reusable: false if the item is visibly broken, rotten, or moldy.
 - safetyFlags: add "possible_lead_paint" for painted wood or windows that look pre-1980, "possible_asbestos" for old vinyl floor tiles, popcorn ceilings, or pipe wrap, "water_damage" or "mold" if visible, otherwise ["none"].
-- photoIndex: the 0-based index of the photo where the item is clearest.
+- photoIndex: the number of the photo (as labeled "Photo 0", "Photo 1", ...) where the item is clearest.
 - At most 25 items. Skip structural elements (walls, roof, framing) and anything bolted into concrete.
 
 Return ONLY valid JSON, no markdown, matching exactly:
