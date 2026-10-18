@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.pem
+.oci/
+data/db.json
+*.tsbuildinfo
+next-env.d.ts
