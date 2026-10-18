@@ -16,7 +16,9 @@ HackTN26 · Team **West End Demons** · Challenge #1: From Surplus to Social Goo
 ![Salvage manifest](docs/screenshot-manifest.png)
 </details>
 
-<!-- TODO: deck PDF and backup demo video links -->
+**Demo video (1:20):** [docs/demo.mp4](docs/demo.mp4), a captioned walkthrough recorded on the live site.
+
+<!-- TODO: deck PDF link -->
 
 ## The problem
 
