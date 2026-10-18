@@ -7,9 +7,16 @@ doors, cabinets, flooring and fixtures to nonprofits before they hit the landfil
 
 HackTN26 · Team **West End Demons** · Challenge #1: From Surplus to Social Good
 
-**Live demo:** http://147.224.131.196:8000 (Next.js on OCI Compute, port 8000)
+**Live demo:** https://beforethebulldozer.147-224-131-196.sslip.io (Next.js on OCI Compute behind Caddy with HTTPS; direct: http://147.224.131.196:8000)
 
-<!-- TODO: add screenshot (docs/screenshot.png), deck PDF and backup demo video links -->
+![Salvage Radar: real Nashville demolition permits](docs/screenshot-radar.png)
+
+<details><summary>Salvage manifest and nonprofit matches</summary>
+
+![Salvage manifest](docs/screenshot-manifest.png)
+</details>
+
+<!-- TODO: deck PDF and backup demo video links -->
 
 ## The problem
 
@@ -86,6 +93,8 @@ Environment variables (see `.env.example`):
 npm ci && npm run build
 pm2 start npm --name btb -- start -- -p 8000
 pm2 save
+# HTTPS on 80/443: Caddy reverse proxy (see /etc/caddy/Caddyfile)
+#   <hostname> { reverse_proxy localhost:8000 }
 # redeploy: git pull && npm run build && pm2 restart btb
 ```
 
