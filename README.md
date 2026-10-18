@@ -18,7 +18,7 @@ HackTN26 · Team **West End Demons** · Challenge #1: From Surplus to Social Goo
 
 **Demo video (1:19):** [docs/demo.mp4](docs/demo.mp4), a captioned walkthrough recorded on the live site.
 
-<!-- TODO: deck PDF link -->
+**Pitch deck:** [docs/deck/Before-the-Bulldozer-deck.pdf](docs/deck/Before-the-Bulldozer-deck.pdf) ([speaker notes and sources](docs/deck/README.md))
 
 ## The problem
 
