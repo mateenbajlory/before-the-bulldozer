@@ -7,7 +7,7 @@ doors, cabinets, flooring and fixtures to nonprofits before they hit the landfil
 
 HackTN26 · Team **West End Demons** · Challenge #1: From Surplus to Social Good
 
-**Live demo:** https://beforethebulldozer.147-224-131-196.sslip.io (Next.js on OCI Compute behind Caddy with HTTPS; direct: http://147.224.131.196:8000)
+**Live demo:** https://beforethebulldozer.duckdns.org (Next.js on OCI Compute behind Caddy with HTTPS; direct: http://147.224.131.196:8000)
 
 ![Salvage Radar: real Nashville demolition permits](docs/screenshot-radar.png)
 
