@@ -5,7 +5,7 @@
 An AI salvage scout that inventories what's inside Nashville houses slated for demolition and routes reusable
 doors, cabinets, flooring and fixtures to nonprofits before they hit the landfill.
 
-HackTN26 · Team **West End Genies** · Challenge #1: From Surplus to Social Good
+HackTN26 · Team **West End Demons** · Challenge #1: From Surplus to Social Good
 
 **Live demo:** http://147.224.131.196:8000 (Next.js on OCI Compute, port 8000)
 
@@ -112,4 +112,10 @@ pm2 save
 
 ## Team
 
-West End Genies: _names here_
+**West End Demons**
+
+- Mateen Bajlory
+- Omar Jebril
+- Sarmad Salman
+- Zahir Al Hinai
+- Ibrahim Boudaoud
