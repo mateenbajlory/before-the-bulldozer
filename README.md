@@ -125,8 +125,8 @@ pm2 save
 
 **West End Demons**
 
-- Mateen Bajlory
-- Omar Jebril
-- Sarmad Salman
-- Zahir Al Hinai
-- Ibrahim Boudaoud
+- Mateen Bajlory ([@mateenbajlory](https://github.com/mateenbajlory))
+- Omar Jebril ([@pepsi-boy](https://github.com/pepsi-boy))
+- Sarmad Salman ([@sarmadd47](https://github.com/sarmadd47))
+- Zahir Al Hinai ([@zalhinai006](https://github.com/zalhinai006))
+- Ibrahim Boudaoud ([@ibrahimboudaoud](https://github.com/ibrahimboudaoud))
